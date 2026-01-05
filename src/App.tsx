@@ -6,6 +6,8 @@ import Blog from './pages/Blog'
 import BlogPost from './pages/BlogPost'
 import About from './pages/About'
 import Experiments from './pages/Experiments'
+import SolitaireSupport from './pages/SolitaireSupport'
+import SolitairePrivacy from './pages/SolitairePrivacy'
 import './App.css'
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
             <Route path="/blog/:id" element={<BlogPost />} />
             <Route path="/experiments" element={<Experiments />} />
             <Route path="/about" element={<About />} />
+            <Route path="/solitaire/support" element={<SolitaireSupport />} />
+            <Route path="/solitaire/privacy" element={<SolitairePrivacy />} />
           </Routes>
         </main>
         <footer className="footer">
